@@ -3,6 +3,7 @@
 html{
     font-size: 62.5%;
     font-weight: 300;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -11,8 +12,14 @@ body{
     font-size: var(--font-normal);
 }
 
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .justify-content-between{
@@ -21,4 +28,24 @@ body{
 
 .align-item-center{
     align-items: center;
+}
+
+.social a {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.8rem;
+    text-align: center;
+    color: var(--color-white);
+    margin: 0 4px;
+    border-radius: 50%;
+    transition: all 0.3s ease; 
+}
+
+.social a:hover{
+    color: var(--primary-color);
+}
+
+.social a i {
+    line-height: 4rem;
 }
