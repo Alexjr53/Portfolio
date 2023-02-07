@@ -8,8 +8,8 @@
 }
 
 :root{
-    --primary-font: 'Poppins', sans serif;
-    --secondary-font: 'releway', sans serif;
+    --primary-font: 'Poppins', sans-serif;
+    --secondary-font: 'releway', sans-serif;
     --font-extra-big: 4.5rem;
     --font-big: 3rem;
     --font-medium: 2.4rem;
@@ -17,5 +17,5 @@
 }
 
 :root{
-    --mobile-padding: 30px
+    --mobile-padding: 3rem
 }

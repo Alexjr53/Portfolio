@@ -10,3 +10,15 @@ body{
     /* font-family: ; */
     font-size: var(--font-normal);
 }
+
+.row{
+    display: flex;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.align-item-center{
+    align-items: center;
+}
