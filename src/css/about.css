@@ -1,0 +1,15 @@
+.sobre-mim .imagem-sobre-mim{
+    max-width: 40%;
+    padding: 0 1.5rem;
+}
+
+.sobre-mim .imagem-sobre-mim .img-box{
+    padding: 1.5rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sobre-mim .imagem-sobre-mim img{
+    border: 1rem solid transparent;
+    border-radius: 0.5rem;
+}

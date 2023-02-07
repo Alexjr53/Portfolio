@@ -49,3 +49,40 @@ body{
 .social a i {
     line-height: 4rem;
 }
+
+.outter-shadow{
+    box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
+}
+
+.inner-shadow{
+    box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #454545; 
+}
+
+.section {
+    padding: 7rem 0 7rem;
+}
+
+.section-title{
+    text-align: center;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 6rem 0;
+}
+
+.section-title h2{
+    font-size: var(--font-extra-big);
+    text-transform: uppercase;
+}
+
+.btn-link {
+    font-size: var(--font-big);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    transition: all 0.3s ease;
+    background-color: var(--primary-color);
+}
+
+.btn-link:hover{
+    background-color: var(--secondary-color);
+    color: var(--color-white);
+}
