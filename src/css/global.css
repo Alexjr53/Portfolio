@@ -4,3 +4,9 @@ html{
     font-size: 62.5%;
     font-weight: 300;
 }
+
+body{
+    background-color: var(--background-color-medium);
+    /* font-family: ; */
+    font-size: var(--font-normal);
+}
