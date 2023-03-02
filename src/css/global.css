@@ -10,8 +10,8 @@ html{
 }
 
 body{
-    background-color: var(--background-color-medium);
-    font-family: 'Space Grotesk', sans-serif;
+    background-color: var(--background-color-dark);
+    font-family: var(--secondary-font);
     font-size: var(--font-normal);
 }
 
@@ -60,32 +60,20 @@ body{
 .inner-shadow{
     box-shadow: inset 3px 3px 3px var(--secondary-color), inset -3px -3px 3px #454545; 
 }
-  /* não arrumei daqui para baixo */
 .section {
-    padding: 7rem 0 7rem;
+    padding: 7rem 0;
 }
 
 .section-title{
+    font-family: var(--secondary-font);
     text-align: center;
     flex: 0 0 100%;
     max-width: 100%;
     padding: 6rem 0;
+    color: var(--secondary-color);
 }
 
 .section-title h2{
     font-size: var(--font-extra-big);
     text-transform: uppercase;
-}
-
-.btn-link {
-    font-size: var(--font-big);
-    padding: 1rem 2rem;
-    border-radius: 2rem;
-    transition: all 0.3s ease;
-    background-color: var(--primary-color);
-}
-
-.btn-link:hover{
-    background-color: var(--secondary-color);
-    color: var(--color-white);
 }
