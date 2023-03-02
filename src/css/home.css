@@ -9,6 +9,14 @@
 
 .home .text-home{
     letter-spacing: 0.2rem;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+}
+
+.home .text-home h3{
+    font-size: 1.6rem;
+    color: var(--secondary-color);
+    margin-top: 2rem;
 }
 
 .home .text-home,
@@ -31,20 +39,17 @@
 }
 
 .home .text-home p {
-    /* font-family: ; */
     font-size: var(--font-big);
     margin-bottom: 1rem;
 }
 
 .home .text-home h1{
-    /* font-family: ; */
     font-size: var(--font-extra-big);
     font-weight: 700;
     margin-bottom: 2rem;
 }
 
 .home .text-home h2{
-    /* font-family: ; */
     font-size: var(--font-big);
     letter-spacing: 0.2rem;
     margin-bottom: 3rem;
@@ -57,7 +62,6 @@
         max-width: 100%;
         text-align: center;
         padding: var(--mobile-padding);
-
     }
 }
 
