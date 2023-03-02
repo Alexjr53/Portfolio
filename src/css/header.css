@@ -1,4 +1,5 @@
 .header{
+    font-family: var(--secondary-font);
     padding: 3rem 1.5rem;
     position: fixed;
     z-index: 1;
@@ -8,7 +9,7 @@
 }
 
 .header .logo {
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
     font-size: var(--font-big);
     text-align: center;
     transition: 0.2s;
@@ -127,7 +128,7 @@
 
     .header nav ul{
         display: none;
-         background-color: var(--background-color-dark); /* mudar a cor  */
+         background-color: var(--background-color-dark);
         padding: 2rem;
         border-radius: 2rem;
     }
