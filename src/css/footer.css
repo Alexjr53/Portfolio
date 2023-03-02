@@ -1,15 +1,23 @@
 .footer{
     margin-top: 7rem;
     text-align: center;
-    background-color: var(--background-color-soft);
+    background-color: var(--background-color-medium);
     padding: 5rem 0;
 }
 
 .footer h2{
-    /* font-family: ; */
+    font-family: var(--primary-font);
+    color: var(--color-white);
     font-size: var(--font-normal);
     font-weight: 700;
     letter-spacing: 0.2rem;
     margin-bottom: 2rem;
+}
+
+.footer h3{
+    font-size: 1.6rem;
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    margin-top: 2rem;
 }
 
