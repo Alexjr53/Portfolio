@@ -3,13 +3,13 @@
     --primary-color: #3b6190;
     --secondary-color: #76de62;
     --background-color-dark: #040203;
-    --background-color-medium: #282828;
+    --background-color-medium: #1b1b1b;
     --background-color-soft: #353535;
 }
 
 :root{
-    --primary-font: 'endgame', sans-serif;
-    --secondary-font: 'Space Grotesk', sans-serif;
+    --primary-font: 'Space Grotesk', sans-serif;
+    --secondary-font: 'endgame', sans-serif;
     --font-extra-big: 4.5rem;
     --font-big: 3rem;
     --font-medium: 2.4rem;
