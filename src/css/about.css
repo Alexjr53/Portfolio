@@ -1,46 +1,68 @@
-.sobre-mim .imagem-sobre-mim{
+.about-me{
+    margin: 4rem;
+}
+
+.about-me .image-about-me{
     max-width: 40%;
     padding: 0 1.5rem;
 }
 
-.sobre-mim .imagem-sobre-mim .img-box{
+.about-me .image-about-me .img-box{
     padding: 1.5rem;
-    border-radius: 5px;
+    border-radius: 2rem;
     text-align: center;
 }
 
-.sobre-mim .imagem-sobre-mim img{
+.about-me .image-about-me img{
     border: 1rem solid transparent;
-    border-radius: 0.5rem;
+    border-radius: 2rem;
 }
 
-.sobre-mim .info-sobre-mim {
-    max-width: 50%;
-    padding: 0 2.5rem;
-    background-color: tomato;
+.about-me .info-about-me {
+    max-width: 60%;
+    font-family: var(--primary-font);
+    color: var(--color-white);
+    padding: 2.5rem 2.5rem;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 10px var(--primary-color);
+    background-color: var(--background-color-medium);
 }
 
-.sobre-mim .info-sobre-mim .btn{
-    margin-top: 5rem;
-}
-
-.sobre-mim .info-sobre-mim p {
+.about-me .info-about-me p {
     font-size: 1.8rem;
     margin-bottom: 2rem;
 }
 
+.about-me .info-about-me .btn{
+    margin-top: 5rem;
+}
+
+.info-about-me .btn-link {
+    font-family: var(--secondary-font);
+    font-size: var(--font-big);
+    padding: 1rem 2rem;
+    border-radius: 2rem 5rem;
+    transition: all 0.3s ease;
+    background-color: var(--primary-color);
+}
+
+.info-about-me .btn-link:hover{
+    background-color: var(--secondary-color);
+    color: var(--color-white);
+}
+
 @media(max-width: 980px){
-    .sobre-mim .row {
+    .about .row {
         justify-content: center;
     }
     
-    .sobre-mim .imagem-sobre-mim {
+    .about .info-about-me {
         max-width: 100%;
         padding: 0 var(--mobile-padding);
         margin-bottom: 5rem;
     }
 
-    .sobre-mim .info-sobre-mim {
+    .about .info-about-me {
         max-width: 100%;
         padding: 0 var(--mobile-padding);
         text-align: center;
