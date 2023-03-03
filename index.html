@@ -116,6 +116,7 @@
             <div class="row">
                 <div class="section-title">
                     <h2>Habilidades</h2>
+                    <p>*clique nos icones para mostrar os detalhes*</p>
                 </div>
             </div>
         </div>
@@ -126,8 +127,7 @@
                     <i class="devicon devicon-javascript-plain"></i>
                 </div>
                 <h3>JavaScript</h3>
-                <p>Tenho uma boa base do JS. já entendo bem conceitos como callbacks, promisses, async/await, consumo de
-                    APIs, destructuring, apread operators, dentre outros.</p>
+                <p class="hidden">Tenho uma boa base do JS. já entendo bem conceitos como callbacks, promisses, async/await, consumo de APIs, destructuring, apread operators, dentre outros.</p>
             </div>
 
             <div class="skill">
@@ -135,9 +135,7 @@
                     <i class="devicon devicon-html5-plain-wordmark"></i>
                 </div>
                 <h3>HTML5</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quod dicta voluptatibus quasi.
-                    Repudiandae laudantium temporibus nihil sit quas obcaecati ullam quam explicabo cumque perspiciatis
-                    sed molestias, alias labore enim?</p>
+                <p class="hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quod dicta voluptatibus quasi. Repudiandae laudantium temporibus nihil sit quas obcaecati ullam quam explicabo cumque perspiciatis sed molestias, alias labore enim?</p>
             </div>
 
             <div class="skill">
@@ -145,9 +143,7 @@
                     <i class="devicon devicon-css3-plain-wordmark"></i>
                 </div>
                 <h3>CSS3</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quod dicta voluptatibus quasi.
-                    Repudiandae laudantium temporibus nihil sit quas obcaecati ullam quam explicabo cumque perspiciatis
-                    sed molestias, alias labore enim?</p>
+                <p class="hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quod dicta voluptatibus quasi. Repudiandae laudantium temporibus nihil sit quas obcaecati ullam quam explicabo cumque perspiciatis sed molestias, alias labore enim?</p> 
             </div>
 
             <div class="skill">
@@ -155,9 +151,7 @@
                     <i class="devicon devicon-github-original"></i>
                 </div>
                 <h3>GitHub</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quod dicta voluptatibus quasi.
-                    Repudiandae laudantium temporibus nihil sit quas obcaecati ullam quam explicabo cumque perspiciatis
-                    sed molestias, alias labore enim?</p>
+                <p class="hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quod dicta voluptatibus quasi. Repudiandae laudantium temporibus nihil sit quas obcaecati ullam quam explicabo cumque perspiciatis sed molestias, alias labore enim?</p>
             </div>
 
             <div class="skill">
@@ -165,9 +159,7 @@
                     <i class="devicon devicon-git-plain"></i>
                 </div>
                 <h3>Git</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quod dicta voluptatibus quasi.
-                    Repudiandae laudantium temporibus nihil sit quas obcaecati ullam quam explicabo cumque perspiciatis
-                    sed molestias, alias labore enim?</p>
+                <p class="hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quod dicta voluptatibus quasi. Repudiandae laudantium temporibus nihil sit quas obcaecati ullam quam explicabo cumque perspiciatis sed molestias, alias labore enim?</p>
             </div>
         </div>
     </section>
@@ -284,16 +276,16 @@
         <div class="container">
             <h2>Me envie uma mensagem!</h2>
             <div class="social">
-                <a href="" class="outter-shadow">
+                <a href="" target="_blank" class="outter-shadow">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
-                <a href="#" class="outter-shadow">
+                <a href="https://wa.me/11997115309" target="_blank" class="outter-shadow">
                     <i class="fab fa-whatsapp"></i>
                 </a>
-                <a href="#" class="outter-shadow">
+                <a href="https://github.com/Alexjr53" target="_blank" class="outter-shadow">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="#" class="outter-shadow">
+                <a href="https://www.instagram.com/_aleex_jr/" target="_blank" class="outter-shadow">
                     <i class="fab fa-instagram"></i>
                 </a>
             </div>
@@ -301,23 +293,7 @@
         </div>
     </footer>
 
-    <script>
-        
-        function typeWriter(element){
-            const textArray = element.innerHTML.split('');
-            element.innerHTML = '';
-            textArray.forEach((characters, index) => {
-                setTimeout(function(){
-                    element.innerHTML += characters;
-                }, 140 * index)
-            });
-        }
-        const phrase = document.querySelector('.presentation')
-        document.querySelector('.logo').addEventListener('click', ()=>{
-            typeWriter(phrase)
-        })
-        typeWriter(phrase);
-    </script>
+    <script src="src/js/index.js"></script>
 </body>
 
 </html>
