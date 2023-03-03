@@ -5,7 +5,7 @@
     z-index: 1;
     width: 100%;
     backdrop-filter: blur(2.5rem);
-    border-bottom: 1px solid rgb(65, 64, 64);
+    border-bottom: 1px solid var(--neutral-soft-color);
 }
 
 .header .logo {
@@ -34,10 +34,12 @@
     border-radius: 5rem 2rem;
     letter-spacing: 0.1rem;
     user-select: none;
+    transition: 0.7s ease-in-out;
 }
 
 .header nav ul li a:hover{
-    background-color: var(--primary-color);  /*mudar a cor*/
+    background: linear-gradient(90deg, rgba(41,57,78,1) 1%, rgba(62,108,164,1) 47%, rgba(71,148,245,1) 97%);
+    box-shadow: 2px 2px 8px var(--secondary-color);
 }
 
 .header .menu{
@@ -128,7 +130,7 @@
 
     .header nav ul{
         display: none;
-         background-color: var(--background-color-dark);
+         background-color: var(--neutral-soft-color);
         padding: 2rem;
         border-radius: 2rem;
     }

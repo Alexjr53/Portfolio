@@ -1,10 +1,10 @@
 :root{
     --color-white: #fff;
-    --primary-color: #3b6190;
+    --primary-color: #3d6fab;
     --secondary-color: #76de62;
     --background-color-dark: #040203;
     --background-color-medium: #1b1b1b;
-    --background-color-soft: #353535;
+    --neutral-soft-color: #353535;
 }
 
 :root{
