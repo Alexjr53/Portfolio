@@ -53,7 +53,7 @@
             <div class="row full-screen align-item-center">
                 <div class="text-home">
                     <p>olá 👨‍💻</p>
-                    <h1>sou o Alexsandro</h1>
+                    <h1 class="presentation">sou o Alexsandro</h1>
                     <h2>Desenvolvedor Web</h2>
                     <div class="social">
                         <a href="#" class="outter-shadow" target="_blank">
@@ -300,6 +300,24 @@
             <h3>alexsandrojunior53@gmail.com</h3>
         </div>
     </footer>
+
+    <script>
+        
+        function typeWriter(element){
+            const textArray = element.innerHTML.split('');
+            element.innerHTML = '';
+            textArray.forEach((characters, index) => {
+                setTimeout(function(){
+                    element.innerHTML += characters;
+                }, 140 * index)
+            });
+        }
+        const phrase = document.querySelector('.presentation')
+        document.querySelector('.logo').addEventListener('click', ()=>{
+            typeWriter(phrase)
+        })
+        typeWriter(phrase);
+    </script>
 </body>
 
 </html>
