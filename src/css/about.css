@@ -1,5 +1,5 @@
 .about-me{
-    margin: 4rem;
+    margin: 0 4rem;
 }
 
 .about-me .image-about-me{
@@ -26,6 +26,7 @@
     border-radius: 2rem;
     box-shadow: 5px 5px 10px var(--primary-color);
     background-color: var(--background-color-medium);
+    
 }
 
 .about-me .info-about-me p {
@@ -52,19 +53,19 @@
 }
 
 @media(max-width: 980px){
-    .about .row {
+    .about-me .row {
         justify-content: center;
     }
     
-    .about .info-about-me {
+    .about-me .image-about-me {
         max-width: 100%;
         padding: 0 var(--mobile-padding);
         margin-bottom: 5rem;
     }
 
-    .about .info-about-me {
+    .about-me .info-about-me {
         max-width: 100%;
-        padding: 0 var(--mobile-padding);
+        padding: var(--mobile-padding);
         text-align: center;
     }
 }
