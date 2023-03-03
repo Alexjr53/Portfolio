@@ -43,6 +43,13 @@ body{
     margin: 0 4px;
     border-radius: 50%;
     transition: all 0.3s ease; 
+    animation: fadeInFadeOut 3s linear infinite;
+}
+
+@keyframes fadeInFadeOut{
+    0% {opacity: 1;}
+    50% {opacity: 0.4;}
+    100% {opacity: 1;}
 }
 
 .social a:hover{
@@ -54,7 +61,7 @@ body{
 }
 
 .outter-shadow{
-    box-shadow: 3px 3px 2px var(--primary-color), -1px -1px 10px var(--primary-color);
+    box-shadow: 3px 3px 4px var(--primary-color), -1px -1px 10px var(--primary-color);
 }
 
 .inner-shadow{

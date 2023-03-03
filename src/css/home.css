@@ -30,6 +30,7 @@
     max-width: 45rem;
     margin: auto;
     border-radius: 50%;
+    
 }
 
 .home .img-home .img-box img{
@@ -43,10 +44,22 @@
     margin-bottom: 1rem;
 }
 
-.home .text-home h1{
+.home .text-home .presentation{
     font-size: var(--font-extra-big);
     font-weight: 700;
     margin-bottom: 2rem;
+}
+
+.home .text-home .presentation::after{
+    content: '|';
+    margin-left: 0.5rem;
+    opacity: 1;
+    animation: blink .7s infinite;
+}
+
+@keyframes blink {
+    0%, 100%{ opacity: 1;}
+    50% { opacity: 0;}
 }
 
 .home .text-home h2{
