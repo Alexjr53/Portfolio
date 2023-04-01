@@ -42,12 +42,6 @@
     animation: fadeIn 1s linear;
 }
 
-/* .skill .fadeOut{
-    opacity: 0;
-    animation: animate-div 1.8s linear;
-    animation-direction: reverse;
-} */
-
 @keyframes fadeIn {
     from { opacity: 0; margin-right: -50px;}
     to { opacity: 1; margin-right: 0px}
