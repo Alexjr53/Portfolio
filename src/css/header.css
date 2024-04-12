@@ -38,7 +38,7 @@
 }
 
 .header nav ul li a:hover{
-    background: linear-gradient(90deg, rgba(41,57,78,1) 1%, rgba(62,108,164,1) 47%, rgba(71,148,245,1) 97%);
+    background: linear-gradient(90deg, rgb(223, 98, 111) 1%, rgb(224,73,88) 47%, rgb(218, 56, 72) 97%);
     box-shadow: 2px 2px 8px var(--secondary-color);
 }
 
