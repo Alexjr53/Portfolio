@@ -48,7 +48,7 @@
 }
 
 .info-about-me .btn-link:hover{
-    background-color: var(--secondary-color);
+    background-color: var(--neutral-soft-color);
     color: var(--color-white);
 }
 
