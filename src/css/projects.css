@@ -53,7 +53,7 @@
 }
 
 .projects .container-projects .project .info-project a:hover{
-    background-color: var(--secondary-color);
+    background-color: var(--neutral-soft-color);
 }
 
 .projects .container-projects .project .info-project p:nth-child(2) {
