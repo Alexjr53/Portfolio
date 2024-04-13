@@ -84,3 +84,7 @@ body{
     font-size: var(--font-extra-big);
     text-transform: uppercase;
 }
+
+.section-title p {
+    color : var(--primary-color)
+}
